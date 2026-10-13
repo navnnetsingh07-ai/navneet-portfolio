@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Quest</title>
+    <link rel="stylesheet" href="assignment2.css">
+</head>
+<body>
+
+    <!-- Game Header -->
+    <header class="game-header">
+        <h1>Flexbox Quest</h1>
+        <div class="game-info">
+            <span>Lives: 3</span>
+            <span>Coins: 120</span>
+            <span>Level: 1</span>
+        </div>
+        <div class="header-actions">
+            <button class="btn">Pause</button>
+            <button class="btn">Menu</button>
+        </div>
+    </header>
+
+    <!-- Main Content Area -->
+    <main>
+        <!-- Game Area Section -->
+        <section class="game-area">
+            <div class="player">PLAYER</div>
+            <div class="platform">PLATFORM</div>
+            <div class="platform">PLATFORM</div>
+            <div class="star">STAR</div>
+        </section>
+
+        <!-- Game Panels Section -->
+        <section class="game-panels">
+            <!-- Controls Panel -->
+            <div class="panel controls">
+                <h2>Controls</h2>
+                <div class="control-row">
+                    <button class="btn">↑</button>
+                </div>
+                <div class="control-row">
+                    <button class="btn">←</button>
+                    <button class="btn">↓</button>
+                    <button class="btn">→</button>
+                </div>
+                <button class="btn jump-btn">Jump</button>
+            </div>
+
+            <!-- Inventory Panel -->
+            <div class="panel inventory">
+                <h2>Inventory</h2>
+                <div class="inventory-items">
+                    <div class="item">Sword</div>
+                    <div class="item">Shield</div>
+                    <div class="item">Potion</div>
+                    <div class="item">Key</div>
+                </div>
+            </div>
+
+            <!-- Quest Panel -->
+            <div class="panel quest">
+                <h2>Quest</h2>
+                <div class="quest-item">
+                    <span>Collect 3 Stars</span>
+                    <span>1 / 3</span>
+                </div>
+                <div class="quest-item">
+                    <span>Find the Golden Key</span>
+                    <span>0 / 1</span>
+                </div>
+                <div class="quest-item">
+                    <span>Defeat the Monster</span>
+                    <span>0 / 1</span>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Flexbox Quest. Built with HTML and CSS Flexbox.</p>
+    </footer>
+
+</body>
+</html>
